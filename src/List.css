@@ -1,0 +1,25 @@
+.list {
+	display: flex;
+	flex-direction: row;
+}
+
+.list > img {
+	margin: 5px 5px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}
+.list__content {
+	margin-left: 5px;
+	margin-top: -15px;
+}
+.list__content > h3 {
+	margin-top: -15px;
+	font-size: 20px;
+}
+.list__content > p {
+	margin-top: -15px;
+	color: rgb(206, 185, 185);
+	font-size: 14px;
+	font-weight: bold;
+}
